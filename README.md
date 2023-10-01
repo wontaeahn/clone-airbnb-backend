@@ -3,8 +3,8 @@
 [https://github.com/wontaeahn/clone-airbnb]
 
 ## 작업환경
-OS : Window 10
-DB : Mysql2 3.6.1
+OS : Window 10<br>
+DB : Mysql2 3.6.1<br>
 FrameWork : Nextjs 10.0.0
 
 ## ISSUE
