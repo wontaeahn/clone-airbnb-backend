@@ -2,9 +2,12 @@
 
 [https://github.com/wontaeahn/clone-airbnb]
 
-## Library
+## 작업환경
+OS : Window 10
+DB : Mysql2 3.6.1
+FrameWork : Nextjs 10.0.0
 
-- cross-env : 운영 체제 간의 환경 변수 설정에 대한 일관성
+## ISSUE
 
 ## Installation
 
