@@ -6,6 +6,7 @@ import {
   MinLength,
 } from 'class-validator';
 import { passwordRegExp } from 'src/utils/const';
+import { failPasswordValidationMessage } from 'src/utils/errorMessages';
 
 export class CreateUserDto {
   @IsNotEmpty()
@@ -20,7 +21,7 @@ export class CreateUserDto {
   @IsString()
   @MinLength(8)
   @Matches(passwordRegExp, {
-    message: 'Password Validation Error',
+    message: failPasswordValidationMessage,
   })
   password: string;
 }
